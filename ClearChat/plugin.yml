@@ -1,0 +1,14 @@
+name: ClearChat
+author: Mathchat
+version: 1.0.0
+api: 4.0.0
+main: clearchat\Main
+
+commands:
+  clearchat:
+    description: Clear the Chat
+    permission: clearchat.cmd
+
+permissions:
+  clearchat.cmd:
+    default: op
